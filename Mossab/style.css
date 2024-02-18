@@ -1,0 +1,111 @@
+body{
+    background-color:rgb(226, 250, 245);
+    font-family: 'Roboto',sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(160, 236, 198);
+    padding: 1px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo{
+    width: 55px;
+    margin-left: 40px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 15px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.Sing_Up{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color:rgb(136, 216, 207);
+}
+.serch{
+    background: rgb(241, 235, 235);
+    width: 350px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.serch input{
+    width: 100%;
+    border: 0;
+    align-items: center;
+    padding: 10px;
+    outline: none;
+    background: transparent;
+}
+
+.login{
+    width: 360px;
+    height: 270px ;
+    margin: auto;
+    border-radius: 3px;
+    background-color: rgb(136, 216, 207) ;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 50px;
+    outline: none;
+}
+input[type = "button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border:  none;
+    background-color: rgb(56, 106, 92);
+    color: aliceblue;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.para2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para2 a{
+    color: #0119ef;
+}
